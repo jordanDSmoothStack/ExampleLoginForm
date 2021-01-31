@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jordan Divina">
+	<title>Utopia login page</title>
+	<meta name="description" content="An example login page using a dynamic web project from Eclipse">
+</head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./index.css">
+<body>
+	<nav class="navbar">
+  		<div class="container-fluid">
+    		<span class="navbar-brand mb-0 h1 leftHeader">Utopia</span>
+  		</div>
+	</nav>
+
+	<div class="loginContainer">
+		<div class = "login">
+			<div class="innerLogin">
+				<h1>Login</h1>
+				<form action="login" method="POST">
+					<label for="username"><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="username" required>
+
+					    <label for="password"><b>Password</b></label>
+					    <input type="password" placeholder="Enter Password" name="password" required>
+
+					    <button type="submit">Login to Utopia</button>
+				</form>
+  			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
